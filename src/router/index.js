@@ -4,13 +4,13 @@ import CotliDungeonForms from '../views/CotliDungeonForms.vue'
 const routes = [
   {
     path: '/',
-    name: 'CotLI Tools',
-    component: CotliTools
-  },
-  {
-    path: '/forms',
     name: 'Dungeon Forms',
     component: CotliDungeonForms
+  },
+  {
+    path '/about',
+    name: 'CotLI Tools',
+    component: CotliTools
   }
 ]
 
