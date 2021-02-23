@@ -8,7 +8,7 @@ const routes = [
     component: CotliDungeonForms
   },
   {
-    path '/about',
+    path: '/about',
     name: 'CotLI Tools',
     component: CotliTools
   }
