@@ -7,7 +7,7 @@ cache: npm
 script: npm run build
 
 deploy:
- provider: pages:git
+ provider: pages
  local_dir: dist
  on:
    branch: main
