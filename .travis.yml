@@ -7,7 +7,10 @@ cache: npm
 script: npm run build
 
 deploy:
- provider: pages
- local_dir: dist
- on:
-   branch: main
+  edge: true
+  skip_cleanup: true
+  keep_history: true
+  provider: pages
+  local_dir: dist
+  on:
+    branch: main
