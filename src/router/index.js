@@ -1,25 +1,22 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
-
+import {createRouter, createWebHistory } from 'vue-router'
+import CotliTools from '../views/CotliTools.vue'
+import CotliDungeonForms from '../views/CotliDungeonForms.vue'
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'CotLI Tools',
+    component: CotliTools
   },
   {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    path: '/forms',
+    name: 'Dungeon Forms',
+    component: CotliDungeonForms
   }
 ]
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
-  routes
+    history: createWebHistory(process.env.BASE_URL),
+    routes
 })
 
 export default router

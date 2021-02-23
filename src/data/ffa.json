@@ -1,0 +1,32 @@
+{
+  "notes": [
+    "Stable form is fairly weak due to needing an empty slot.",
+    "Pick Gem for GoR insurance or Euo for speed."
+  ],
+  "forms": [
+    {
+      "name": "Stable DPS",
+      "author": "Zinsho",
+      "saders": [
+        156, 62, 150, 142, 136, 53, 147, 101, 120, 128, 161, 144, 27, 152
+      ]
+    },
+    {
+      "name": "Stable RR",
+      "author": "Khed",
+      "saders": [
+        156, 144, 136, 137, 38, 120, 62, 101, 152, 161, 147, 128, 142, 27
+      ],
+      "markers": [
+        {
+          "slot": 1,
+          "value": "P"
+        },
+        {
+          "slot": 13,
+          "value": "B"
+        }
+      ]
+    }
+  ]
+}
