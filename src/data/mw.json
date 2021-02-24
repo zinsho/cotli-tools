@@ -1,25 +1,69 @@
 {
-  "notes": ["asdfa"],
   "forms": [
     {
-      "name": "0 DPS Farm",
-      "author": "gragatrim",
+      "name": "Gold",
+      "author": "Unknown",
       "saders": [
-        150, -1, -1, -1, -1, 62, 161, 146, 156, 91, 117, 53, -1, 137, -1
+        106, 156, 161, 27, 6, 38, 123, 53, 62, 146, 149, 136, 18, 128, 120
+      ]
+    },
+    {
+      "name": "Sprint/Shell",
+      "author": "Unknown",
+      "saders": [
+        125, 97, 18, 156, 144, 136, 152, 103, 62, 6, 143, 132, 38, 128, 142
+      ]
+    },
+    {
+      "name": "Skelefarm",
+      "author": "Unknown",
+      "saders": [
+        136, -1, 53, -1, -1, 101, 6, -1, 27, 161, 91, 39, 62, 146, 143
+      ],
+      "markers": [
+        {
+          "slot": 4,
+          "value": "B"
+        },
+        {
+          "slot": 1,
+          "value": "P"
+        }
       ]
     },
     {
       "name": "Stable Speed",
-      "author": "",
+      "author": "Unknown",
+      "saders": [
+        156, 144, 142, 137, 120, 152, 27, 53, 62, 161, 128, 136, 133, 101, 147
+      ]
+    },
+    {
+      "name": "Stable Speed -2",
+      "author": "Unknown",
       "saders": [
         156, 144, 152, 133, 120, 6, 27, 53, 62, 161, 128, 136, 163, 101, 147
       ]
     },
     {
       "name": "Unstable DPS",
-      "author": "",
+      "author": "Unknown",
       "saders": [
         27, 144, 152, 6, 120, 62, 136, 133, 97, 101, 154, 147, 156, 161, 106
+      ]
+    },
+    {
+      "name": "ZeroDPS Farm",
+      "author": "Unknown",
+      "saders": [
+        -1, -1, -1, 53, -1, -1, 91, -1, -1, 161, 117, 156, 62, 146, 137
+      ]
+    },
+    {
+      "name": "ZeroDPS Farm - 2",
+      "author": "gragatrim",
+      "saders": [
+        150, -1, -1, -1, -1, 62, 161, 146, 156, 91, 117, 53, -1, 137, -1
       ]
     }
   ]

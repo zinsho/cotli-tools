@@ -1,18 +1,13 @@
 {
-  "notes": ["asdf"],
+  "notes": [
+    "New forms pending for new season"
+  ],
   "forms": [
     {
-      "name": "Stable Speed",
-      "author": "Zinsho",
+      "name": "Gold",
+      "author": "Unknown",
       "saders": [
-        156, 62, 150, 142, 136, 53, 147, 101, 120, 128, 161, 144, 27, 152
-      ]
-    },
-    {
-      "name": "Stable RR",
-      "author": "Khed",
-      "saders": [
-        156, 144, 136, 137, 38, 120, 62, 101, 152, 161, 147, 128, 142, 27
+        -1, -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
       ]
     }
   ]
