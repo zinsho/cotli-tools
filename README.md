@@ -17,13 +17,13 @@ Forms are defined within individual json files within the
 ```json
 {
   "notes": [ "<list of notes to give details about map>" ],
-  "forms": [ <list of forms>
+  "forms": [ "<list of forms>"
     {
       "name": "GoldForm | SkeleFarm | etc",
       "author": "<User who provided form>",
-      "saders": [ < list of crusader IDs > ],
+      "saders": [ "< list of crusader IDs >" ],
       "markers": [ 
-        < optional list of markers to add for Premime/bite > 
+        "< optional list of markers to add for Premime/bite >"
       ]
     }
   ]
