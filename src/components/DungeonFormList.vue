@@ -1,28 +1,31 @@
 <template>
-<div class="DungeonFormList dungeon-grid">
-  <div class="grid-title">
-    <div class="dungeon-title">
-      <span>{{ dungeon.name }} ( {{ dungeon.abbr }} )</span>
-    </div>
-    <div class="form-notes">
-      <span class="form-note-title">Notes:</span>
-      <ul>
-        <li v-for="(note, index) in dungeon.data.notes"
-            :key="index"
-            class="form-note"
-            >
-          {{ note }}
-        </li>
-      </ul>
-    </div>
+
+<div class="dungeonformlist">
+  <div class="dungeon-title">
+    <span>{{ dungeon.name }} ( {{ dungeon.abbr }} )</span>
   </div>
-  <dungeonformview
-    v-for="(form) in dungeon.data.forms"
-    :key="form.name"
-    v-bind:dungeonID="dungeon.id"
-    v-bind:formData="form"
-    class="dungeon-form"
-    />
+  <div class="dungeon-grid">
+    <div class="grid-title" v-if="dungeon.data.notes">
+      <div class="title dungeon-form">Notes:</div>
+      <div class="form-notes">
+        <ul>
+          <li v-for="(note, index) in dungeon.data.notes"
+              :key="index"
+              class="form-note"
+              >
+            {{ note }}
+          </li>
+        </ul>
+      </div>
+    </div>
+    <dungeonformview
+      v-for="(form) in dungeon.data.forms"
+      :key="form.name"
+      v-bind:dungeonID="dungeon.id"
+      v-bind:formData="form"
+      class="dungeon-form"
+      />
+  </div>
 </div>
 </template>
 
@@ -40,6 +43,19 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="stylus" scoped>
 @import "../assets/base16-solarized-light.styl"
+
+.title {
+    width: 316px;
+    height: 30px;
+    position: relative;
+    background: $base06;
+    color: $base02;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+.dungeonformlist {
+    background: $base06;
+}
 
 .dungeon-grid {
     display: grid;
@@ -68,8 +84,9 @@ ul {
     font-variant: small-caps;
     font-size: 1.25em;
     color: $base01;
-    background: $base06;
+    background: $base07;
     height: 30px;
+    width: 100%;
 }
 
 .dungeon-title span {
