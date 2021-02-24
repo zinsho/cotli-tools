@@ -1,18 +1,56 @@
 {
-  "notes": ["asdf"],
+  "notes": ["Stable is untested and needs optimization checks."],
   "forms": [
     {
-      "name": "Stable DPS",
-      "author": "Zinsho",
+      "name": "Gold",
+      "author": "Unknown",
       "saders": [
-        156, 62, 150, 142, 136, 53, 147, 101, 120, 128, 161, 144, 27, 152
+        106, 53, 62, 18, 123, 136, 128, 120, 149, 146, 6, 156, 161, 27
       ]
     },
     {
-      "name": "Stable RR",
-      "author": "Khed",
+      "name": "Sprint/Shell",
+      "author": "Unknown",
       "saders": [
-        156, 144, 136, 137, 38, 120, 62, 101, 152, 161, 147, 128, 142, 27
+        125, 128, 18, 38, 144, 156, 6, 136, 142, 143, 132, 152, 103, 62
+      ]
+    },
+    {
+      "name": "Skelefarm",
+      "author": "Unknown",
+      "saders": [
+        27, 146, 62, 39, 91, 161, 6, 143, 101, -1, 53, -1, 136, -1
+      ],
+      "markers": [
+        {
+          "slot": 11,
+          "value": "B"
+        },
+        {
+          "slot": 13,
+          "value": "P"
+        }
+      ]
+    },
+    {
+      "name": "Stable Speed",
+      "author": "Unknown",
+      "saders": [
+        144, 53, 62, 101, 142, 136, 147, 137, 120, 128, 161, 152, 27, 156
+      ]
+    },
+    {
+      "name": "Unstable DPS",
+      "author": "Unknown",
+      "saders": [
+        101, 97, 62, 144, 133, 136, 147, 106, 120, 6, 156, 152, 161, 27
+      ]
+    },
+    {
+      "name": "ZeroDPS Farm",
+      "author": "Unknown",
+      "saders": [
+        -1, -1, -1, -1, -1, 53, 117, 91, -1, 161, 156, 62, 146, 137
       ]
     }
   ]

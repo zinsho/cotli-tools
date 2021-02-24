@@ -32,7 +32,7 @@
       ]
     },
     {
-      "name": "Stable DPS",
+      "name": "Stable Speed",
       "author": "Gragatrim",
       "saders": [
         156, 62, 150, 142, 136, 53, 147, 101, 120, 128, 161, 144, 27, 152
@@ -53,7 +53,7 @@
       ]
     },
     {
-      "name": "Stable RR",
+      "name": "Stable Speed - RR",
       "author": "Khed",
       "saders": [
         156, 144, 136, 137, 38, 120, 62, 101, 152, 161, 147, 128, 142, 27
