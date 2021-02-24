@@ -22,6 +22,17 @@
           </li>
         </ul>
       </li>
+      <li>
+        <span class="item">Form Sources</span><br />
+        <ul class="text">
+          <li class="info">
+            Sources are stored in
+            the <a href="https://github.com/zinsho/cotli-tools/">Github
+            Repository</a>
+            under <a href="https://github.com/zinsho/cotli-tools/tree/main/src/data">./src/data/</a>
+          </li>
+        </ul>
+      </li>
     </ul>
   </div>
 </div>
