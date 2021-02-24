@@ -1,6 +1,12 @@
 {
   "notes": ["Pending"],
   "forms": [
-    
+    {
+      "name": "Gold",
+      "author": "Unknown",
+      "saders": [
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+      ]
+    }
   ]
 }
