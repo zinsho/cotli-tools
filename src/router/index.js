@@ -1,16 +1,31 @@
 import {createRouter, createWebHistory } from 'vue-router'
 import CotliTools from '../views/CotliTools.vue'
 import CotliDungeonForms from '../views/CotliDungeonForms.vue'
+import NotFound from '../views/NotFound.vue'
+
 const routes = [
   {
     path: '/',
+    name: 'Home',
+    component: CotliTools
+  },
+  {
+    path: '/forms',
     name: 'Dungeon Forms',
     component: CotliDungeonForms
   },
   {
     path: '/about',
-    name: 'CotLI Tools',
+    name: 'About',
     component: CotliTools
+  },
+  {
+    path: "/:pathMatch(.*)*",
+    name: 'Not Found',
+    component: NotFound,
+    meta: {
+      requiresAuth: false
+    }
   }
 ]
 

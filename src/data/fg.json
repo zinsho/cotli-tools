@@ -1,5 +1,5 @@
 {
-  "notes": "fdsaf",
+  "notes": ["fdsaf"],
   "forms": [
     {
       "name": "Stable DPS",

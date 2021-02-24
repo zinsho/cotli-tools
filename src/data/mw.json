@@ -1,5 +1,5 @@
 {
-  "notes": "asdfa",
+  "notes": ["asdfa"],
   "forms": [
     {
       "name": "Stable DPS",
