@@ -1,11 +1,59 @@
 {
-  "notes": ["Pending"],
+  "notes": [
+    "Stable Speed can swap Jiao and Santa to trade spawn speed for DPS"
+  ],
   "forms": [
     {
       "name": "Gold",
       "author": "Unknown",
       "saders": [
-        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+        53, 62, 128, 136, 18, 146, 106, 120, 123, 6, 38, 156, 161, 149, 27
+      ]
+    },
+    {
+      "name": "Sprint/Shell",
+      "author": "Unknown",
+      "saders": [
+        125, 156, 6, 136, 152, 27, 103, 62, 18, 142, 132, 128, 38, 143, 144
+      ]
+    },
+    {
+      "name": "Skelefarm",
+      "author": "EIB",
+      "saders": [
+        101, -1, 6, -1, 143, 91, 39, 27, 161, -1, 53, 62, 146, 136, -1
+      ],
+      "markers": [
+        {
+          "slot": 1,
+          "value": "B"
+        },
+        {
+          "slot": 14,
+          "value": "P"
+        }
+      ]
+    },
+    {
+      "name": "Stable Speed",
+      "author": "Unknown",
+      "saders": [
+        27, 133, 137, 156, 120, 152, 53, 62, 142, 101, 136, 144, 161, 128, 147
+      ]
+    },
+    {
+      "name": "Unstable DPS",
+      "author": "Unknown",
+      "saders": [
+        120, 144, 6, 133, 152, 62, 27, 156, 136, 154, 97, 147, 106, 161, 101
+      ]
+    },
+    {
+      "name": "ZeroDPS Farm",
+      "author": "Unknown",
+      "saders": [
+        -1, -1, -1, 53, -1, -1, 91, -1, -1, 161, 117, 156, 62, 146, 137
+
       ]
     }
   ]

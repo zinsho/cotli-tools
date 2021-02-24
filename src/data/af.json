@@ -1,6 +1,13 @@
 {
   "forms": [
     {
+      "name": "Gold",
+      "author": "Unknown",
+      "saders": [
+        53, 62, 149, 146, 136, 123, 161, 128, 120, 156, 6, 18, 106, 27
+      ]
+    },
+    {
       "name": "Sprint/Shell",
       "author": "Unknown",
       "saders": [
@@ -8,10 +15,27 @@
       ]
     },
     {
-      "name": "Stable Speed",
-      "author": "gragatrim",
+      "name": "Skelefarm",
+      "author": "Nield",
       "saders": [
-        53, 62, 144, 156, 136, 128, 161, 101, 147, 6, 163, 120, 27, 152
+        53, -1, 62, 146, 136, 161, -1, -1, 6, 27, 91, 101, 143, 39
+      ],
+      "markers": [
+        {
+          "slot": 13,
+          "value": "B"
+        },
+        {
+          "slot": 1,
+          "value": "P"
+        }
+      ]
+    },
+    {
+      "name": "Stable Speed",
+      "author": "Khed",
+      "saders": [
+        53, 62, 144, 142, 136, 128, 161, 101, 147, 161, 137, 120, 27, 152
       ]
     },
     {
@@ -19,6 +43,13 @@
       "author": "Unknown",
       "saders": [
         144, 6, 152, 27, 120, 97, 161, 106, 62, 156, 133, 136, 147, 101
+      ]
+    },
+    {
+      "name": "ZeroDPS Farm",
+      "author": "Unknown",
+      "saders": [
+        -1, -1, 62, 146, 156, 161, 117, 137, -1, -1, 91, -1, 53, -1
       ]
     }
   ]
