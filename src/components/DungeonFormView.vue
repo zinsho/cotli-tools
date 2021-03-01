@@ -1,5 +1,5 @@
 <template>
-<div class="DungeonFormView">
+<div class="DungeonFormView" v-bind:id="dungeonAbbr+'-'+formData.name">
   <div class="title">
     <span id="title">
       {{ formData.name }}
@@ -30,7 +30,8 @@ export default {
   name: 'DungeonFormView',
   props: [
     'formData',
-    'dungeonID'
+    'dungeonID',
+    'dungeonAbbr'
   ],
   computed: {
     cssID () {

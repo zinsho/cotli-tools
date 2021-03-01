@@ -1,6 +1,6 @@
 <template>
 
-<div class="dungeonformlist">
+<div class="dungeonformlist" :id="dungeon.abbr">
   <div class="dungeon-title">
     <span>{{ dungeon.name }} ( {{ dungeon.abbr }} )</span>
   </div>
@@ -22,6 +22,7 @@
       v-for="(form) in dungeon.data.forms"
       :key="form.name"
       v-bind:dungeonID="dungeon.id"
+      v-bind:dungeonAbbr="dungeon.abbr"
       v-bind:formData="form"
       class="dungeon-form"
       />
