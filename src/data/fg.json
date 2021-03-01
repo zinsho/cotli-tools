@@ -40,6 +40,14 @@
       ]
     },
     {
+      "name": "Stable Speed - RR",
+      "author": "Khed",
+      "saders": [
+          156, 136, 128, 148, 161, 62, 147, 101, 27, 120, 38, 144, 163
+
+      ]
+    },
+    {
       "name": "Unstable DPS",
       "author": "Unknown",
       "saders": [
